@@ -22,6 +22,6 @@ dag = DAG(
 
 task1 = BashOperator(
     task_id='task_1',
-    bash_command='echo "Hello World"',
+    bash_command='echo "Hello guys"',
     dag=dag,
 )
