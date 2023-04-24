@@ -9,7 +9,7 @@ default_args = {
 }
 
 dag = DAG(
-    'test_airflow',
+    'test_airflow1',
     default_args=default_args,
     schedule_interval=None
 )
